@@ -1,0 +1,18 @@
+
+GET http://localhost:3000/transaction
+
+###
+
+GET http://localhost:3000/transaction/0.9776139368366992
+
+###
+POST http://localhost:3000/transaction
+Content-Type: application/json
+
+{
+  "type": "debit",
+  "amount": "20000"
+}
+
+###
+GET http://localhost:3000/
